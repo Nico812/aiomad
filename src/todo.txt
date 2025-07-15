@@ -1,0 +1,17 @@
+posso togliere i vertici e gli indici salvati in memoria nel sole, nella mappa?
+
+metti tutte le costanti assieme..
+
+metti redraw codice del main in una funzione (che ho gia fatto)
+
+è stupido fare una light.wgsl solo per renderizzare il sole bianco... il sole renderizzalo come modello nella pipeline della chunk_map
+
+metti tutte le load in un file load.rs
+metti tutte le draw in draw.rs
+
+metti tutti i Vertex assieme.
+
+metti a posto la confusione tRA CHUNK TILES backand e frontend
+
+
+

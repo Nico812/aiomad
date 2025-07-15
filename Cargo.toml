@@ -1,0 +1,25 @@
+[package]
+name = "airomad2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+bytemuck = "1.22.0"
+cgmath = "0.18.0"
+env_logger = "0.11.8"
+pollster = "0.4.0"
+rand = "0.9.0"
+tobj = { version = "3.2", default-features = false, features = ["async"]}
+wgpu = "24.0.3"
+winit = "0.30.9"
+
+[build-dependencies]
+anyhow = "1.0.98"
+fs_extra = "1.2"
+glob = "0.3"
+
+[dependencies.image]
+version = "0.25.6"
+default-features = false
+features = ["png", "jpeg"]
